@@ -1,0 +1,22 @@
+{
+  "name": "verifyotp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec \"sls offline start\"",
+    "deploy": "npx sls deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^11.1.2"
+  },
+  "dependencies": {
+    "jest": "^29.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "serverless-middleware": "^3.0.0"
+  }
+}
